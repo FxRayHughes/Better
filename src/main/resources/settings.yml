@@ -1,0 +1,16 @@
+WorldAttribute:
+  worldname:
+    - "傻逼下载: 10-20"
+    - "2B下载: 10%"
+GroupAttribute:
+  A组:
+    1:
+      check:
+        - 'check papi *"%wizardfix_info;quest;0%" is *"0"'
+      action:
+        - '生命加成: +10%'
+    2:
+      check:
+        - 'check papi *"%wizardfix_info;quest;0%" is *"0"'
+      action:
+        - '生命加成: +20%'

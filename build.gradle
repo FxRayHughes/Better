@@ -4,14 +4,14 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.4.0'
 }
 
-group = 'io.izzel.taboolib.example'
+group = 'ray.mintcat.better'
 version = '1.0.0'
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
 taboolib {
-    tabooLibVersion = '5.59'
+    tabooLibVersion = '5.66'
     loaderVersion = '2.12'
     classifier = null
     builtin = true
@@ -22,7 +22,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'ink.ptms.core:v11600:11600:all'
+    implementation 'ink.ptms.core:v11200:11200:all'
     implementation 'org.jetbrains.kotlin:kotlin-stdlib'
     implementation fileTree(dir: 'libs', includes: ['*.jar'])
 }
